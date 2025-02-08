@@ -1,12 +1,14 @@
 <?php
-date_default_timezone_set('UTC');
+date_default_timezone_set('EST');
 
 $CurrentHour = date('H');
 
 if ($CurrentHour <= 10) {
     $Greeting = "Good Morning. Its a while before Noon.";
-    } elseif ($CurrentHour <= ) {
-        # code...
+    } elseif ($CurrentHour <= 16) {
+        $Greeting = "Good afternoon. were getting closer to Night.";
+    } else {
+        $Greeting = "Good Night. Its a while after Noon";
     }
 
 
