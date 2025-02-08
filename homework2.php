@@ -1,6 +1,5 @@
 <?php
 date_default_timezone_set('EST');
-
 $CurrentHour = date('H');
 
 if ($CurrentHour <= 10) {
@@ -10,9 +9,6 @@ if ($CurrentHour <= 10) {
     } else {
         $Greeting = "Good Night. Its a while after Noon";
     }
-
-
-
 ?>
 
 <!DOCTYPE html>
