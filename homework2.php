@@ -1,1 +1,13 @@
-# This is your HTML/PHP file. Delete this comment, and then get started according to the instructions!
+<?php
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1><?php echo $Greeting; </h1>
+    
